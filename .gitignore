@@ -1,0 +1,95 @@
+/node_modules/
+/dist/
+/.git/
+/app/css/
+/**/_backstage
+/**/package-lock.json
+/**/Thumbs.db
+/**/*.DS_Store
+# Numerous always-ignore extensions
+*.bak
+*.diff
+*.err
+*.exe
+*.log
+*.orig
+*.rej
+*.sass-cache
+*.sass
+*.less-cache
+*.less
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+*.sublime-grunt.cache
+*.sublime-project
+*.sublime-workspace
+._*
+.cache
+.DS_Store
+.project
+.settings
+.tmproj
+Thumbs.db
+
+# Folders to ignore
+.CVS
+.git
+.hg
+.idea
+.svn
+bower_components
+dist
+src
+ _src
+# Node.JS
+node_modules
+npm-debug.log
+svg
+# Numerous always-ignore extensions
+*.bak
+*.diff
+*.err
+*.exe
+*.log
+*.orig
+*.rej
+*.sass-cache
+*.sass
+*.less-cache
+*.less
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+*.sublime-grunt.cache
+*.sublime-project
+*.sublime-workspace
+._*
+.cache
+.DS_Store
+.project
+.settings
+.tmproj
+Thumbs.db
+
+# Folders to ignore
+.CVS
+.git
+.hg
+.idea
+.svn
+bower_components
+dist
+src
+ _src
+# Node.JS
+node_modules
+npm-debug.log
+svg
+

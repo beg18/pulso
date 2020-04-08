@@ -1,0 +1,809 @@
+/*==============================
+COLORS
+===============================*/
+
+/*==============================
+FOR  PROJECT
+===============================*/
+
+/*==============================
+FONT-FAMILY
+===============================*/
+
+/*
+Add your png file to source images dir (ex. logo.png and icon.png)
+Add styles to your less file:
+.logo {
+  .sprite(@s-logo);
+}
+.icon {
+  .sprite(@s-icon);
+}
+*/
+
+body,
+div,
+ul,
+li,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+header,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Bower components import
+===================================*/
+
+/* Vendor libs import
+@import "fonts/fonts";
+==============================*/
+
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+
+/*
+
+  Подключить этот файл в начало CSS/LESS файла
+  
+  Вот так:
+  
+  @import "lesselements.less";
+
+*/
+
+/* MY MIXINS */
+
+/* Badges */
+
+/* Tags */
+
+/* 6dp elevation modified*/
+
+/* 12dp elevation modified*/
+
+/* 16dp elevation */
+
+/* 24dp elevation */
+
+/*==========================================*/
+
+/*=======================================*/
+
+/*=======================================*/
+
+/*=======================================*/
+
+/*=======================================*/
+
+/*===========================*/
+
+/*==========================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*
+====================================================
+.header {
+  .display-container();
+  .min-height(750);
+  .bg-img('header-bg@3x.jpg');
+  .bg-webp('header-bg@3x.webp', 100%, 750px);
+
+  .md-block({
+    .min-height(480);
+    .bg-img('header-bg@2x.jpg');
+  });
+
+  .bg-webp-max-md('header-bg@2x.webp', 100%, 480px);
+
+  .xs-block({
+    .min-height(203);
+    .bg-img('header-bg.jpg');
+  });
+
+  .bg-webp-max-xs('header-bg.webp', 100%, 203px);
+}
+
+==================================================
+*/
+
+/* Project Elements
+==============================*/
+
+/*===========================
+Table of Content
+
+1. Wrappers
+2. Buttons
+3. Form elements
+4. Font family
+5. Typography
+===========================*/
+
+/* 1. Wrappers
+===========================*/
+
+/*
+.debug {
+    .debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
+}
+*/
+
+*,
+*:before,
+*,
+*:after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: calc(8.333333333333334% + 10px);
+    padding-right: calc(8.333333333333334% + 10px);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+/* 2. Buttons
+===========================*/
+
+/* 3. Form elements
+===========================*/
+
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+/*4. Font family
+ @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+
+.ff-segoe (@font-weight:400; @font-style: normal;){
+    font-family: "Segoe", @ff-s-serifArial;
+    font-weight: @font-weight;
+    font-style: @font-style;
+}
+
+.ff-raleway (@font-weight:400; @font-style: normal;){
+    font-family: "Raleway", @ff-s-serifArial;
+    font-weight: @font-weight;
+    font-style: @font-style;
+}
+
+.ff-PFCentroSlabPro (@font-weight:500; @font-style: normal;){
+    font-family: 'PF Centro Slab Pro', @ff-s-serifArial;
+    font-weight: @font-weight;
+    font-style: @font-style;
+}
+
+.ff-open-sans (@font-weight:400; @font-style: normal;){
+    font-family: "OpenSans", @ff-s-serifArial;
+    font-weight: @font-weight;
+    font-style: @font-style;
+}
+
+.ff-roboto (@font-weight:400; @font-style: normal;){
+    font-family: 'Roboto', @ff-s-serifArial;
+    font-weight: @font-weight;
+    font-style: @font-style;
+}
+
+.ff-pt-serif (@font-weight:400; @font-style: normal;){
+    font-family: 'PTSerif', @ff-s-serifArial;
+    font-weight: @font-weight;
+    font-style: @font-style;
+}
+
+===========================*/
+
+/*5. Typography
+===========================*/
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    height: auto !important;
+    min-height: 100%;
+    color: #222;
+    overflow-x: hidden;
+    min-width: 300px;
+    min-width: 18.75rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+header {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 43px;
+    font-size: 2.69rem;
+}
+
+h2 {
+    font-size: 34px;
+    font-size: 2.13rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:focus {
+    outline: none;
+}
+
+/*
+http://chimir.ru/post/39:
+@font-face mixin.Пример использования:
+@family: имя шрифта (обязательно).
+@filename: название шрифта, так же используется в качестве id для шрифта в формате svg
+(обязательно, по умолчанию используется имя шрифта).
+@weight: жирность шрифта (не обязательно, по умолчанию normal).
+@style: стиль шрифта (не обязательно, по умолчанию normal).
+
+.font-face(Roboto Slab, RobotoSlab-Bold, bold);
+ .font-face(@family, @filename: @family, @weight: normal, @style: normal){
+    @font-face{
+        font-family: @family;
+        src:url('fonts/@{filename}/@{filename}.eot');
+        src:url('fonts/@{filename}/@{filename}.eot?#iefix') format('embedded-opentype'),
+                url('fonts/@{filename}/@{filename}.woff') format('woff'),
+                url('fonts/@{filename}/@{filename}.ttf') format('truetype'),
+                url('fonts/@{filename}/@{filename}.svg#@{filename}') format('svg');
+        font-weight: @weight;
+        font-style: @style;
+    }
+}
+.font-face(Raleway, RalewayLight, 300);
+.font-face(Raleway, RalewayRegular, 400);
+.font-face(Raleway, RalewaySemiBold, 600);
+.font-face(Raleway, RalewayBold, 700);
+
+.font-face(Open Sans, OpenSansLight, 300);
+.font-face(Open Sans, OpenSansRegular, 400);
+.font-face(Open Sans, OpenSansSemiBold, 600);
+.font-face(Open Sans, OpenSansBold, 700);
+
+.font-face(lobstertwo, lobstertwo-regular, 400);
+.font-face(lobstertwo, lobstertwo-italic, 400, italic);
+.font-face(lobstertwo, lobstertwo-bolditalic, 700, italic);
+.font-face(lobstertwo, lobstertwo-bold, 700);
+
+.font-face(Arabic, Arabic, 400);
+.font-face(Exo2Bold, Exo2Bold, 400);
+
+.font(@f-name, @f-style, @f-weight, @f-url) {
+    @font-face {
+        font-family: @f-name;
+        font-style: @f-style;
+        font-weight: @f-weight;
+        src: url(@f-url) format('woff2');
+    }
+
+}
+
+
+.font('Roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2');
+.font('Roboto', italic, 400, '../fonts/roboto-italic-webfont.woff2');
+.font('Roboto', normal, 700, '../fonts/roboto-bold-webfont.woff2');
+
+
+
+//../fonts
+*/
+
+/*========================
+https://icomoon.io/
+нажимаем на IcoMoon App-> нажимаем на кнопку с книжками add Icon library->
+выбираем нужную библиотеку-> например Font Awesome-> ищем нужные иконки->
+выбираем их-> нажимаем на кнопку Generate Font-> download->
+распакуем архив шрифты из папки font переносим в папку font проекта->
+код из файла style.css вставим в код font.less 
+========================*/
+
+@font-face {
+    font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?fzjwo');
+  src: url('fonts/icomoon.eot?fzjwo#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?fzjwo') format('truetype'), url('fonts/icomoon.woff?fzjwo') format('woff'), url('fonts/icomoon.svg?fzjwo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+    font-family: 'museosanscyrl';
+  src: url('fonts/MuseoSansCyrl-300/museosanscyrl-300woff.eot');
+  src: url('fonts/MuseoSansCyrl-300/museosanscyrl-300woff.eot?#iefix') format('embedded-opentype'), url('fonts/MuseoSansCyrl-300/museosanscyrl-300woff.woff2') format('woff2'),  url('fonts/MuseoSansCyrl-300/museosanscyrl-300woff.woff') format('woff'), url('fonts/MuseoSansCyrl-300/museosanscyrl-300woff.ttf') format('truetype'), url('fonts/MuseoSansCyrl-300/museosanscyrl-300woff.svg#museosanscyrl') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'museosanscyrl';
+  src: url('fonts/MuseoSansCyrl-500/museosanscyrl-500.eot');
+  src: url('fonts/MuseoSansCyrl-500/museosanscyrl-500.eot?#iefix') format('embedded-opentype'), url('fonts/MuseoSansCyrl-500/museosanscyrl-500.woff2') format('woff2'),  url('fonts/MuseoSansCyrl-500/museosanscyrl-500.woff') format('woff'), url('fonts/MuseoSansCyrl-500/museosanscyrl-500.ttf') format('truetype'), url('fonts/MuseoSansCyrl-500/museosanscyrl-500.svg#museosanscyrl') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'museosanscyrl';
+  src: url('fonts/MuseoSansCyrl-700/museosanscyrl-700.eot');
+  src: url('fonts/MuseoSansCyrl-700/museosanscyrl-700.eot?#iefix') format('embedded-opentype'), url('fonts/MuseoSansCyrl-700/museosanscyrl-700.woff2') format('woff2'),  url('fonts/MuseoSansCyrl-700/museosanscyrl-700.woff') format('woff'), url('fonts/MuseoSansCyrl-700/museosanscyrl-700.ttf') format('truetype'), url('fonts/MuseoSansCyrl-700/museosanscyrl-700.svg#museosanscyrl') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Pages import
+@import "pages/home";
+==============================*/
+
+.promo {
+    min-height: 650px;
+    min-height: 40.63rem;
+    padding: 20px 0 90px 0;
+    background-image: url('../i/main-bg.jpg');
+    background-image: -webkit-image-set(url('../i/main-bg.jpg') 1x, url('../i/main-bg@2x.jpg') 2x);
+    background-image: image-set('../i/main-bg.jpg' 1x, '../i/main-bg@2x.jpg' 2x);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.promo__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding-top: 90px;
+}
+
+.promo__header {
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    font-size: 2.63rem;
+    line-height: 48px;
+    line-height: 3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.promo__subheader {
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    line-height: 1.88rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.promo-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.promo-item {
+    max-width: 140px;
+    max-width: 8.75rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    font-size: 0.88rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+
+.promo__link-wrap {
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.promo__link {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+    outline: none !important;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 150px;
+    max-width: 9.38rem;
+    height: 30px;
+    height: 1.88rem;
+    line-height: 30px;
+    line-height: 1.88rem;
+    padding: 0 16px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #c70101;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #e00101;
+    color: #ffffff;
+}
+
+.button:focus {
+    outline: none;
+    background-color: #e00101;
+    color: #e6e6e6;
+}
+
+.button--main {
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+    outline: none !important;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 300px;
+    max-width: 18.75rem;
+    height: 50px;
+    height: 3.13rem;
+    line-height: 50px;
+    line-height: 3.13rem;
+    padding: 0 40px;
+    padding: 0 2.5rem;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #c70101;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.button--main:hover {
+    background-color: #e00101;
+    color: #ffffff;
+}
+
+.button--main:focus {
+    outline: none;
+    background-color: #e00101;
+    color: #e6e6e6;
+}
+
+.header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 55px;
+    min-height: 3.44rem;
+}
+
+.header__logo {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(33.333333333333336% - 20px);
+}
+
+.header__official {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(25% - 20px);
+}
+
+.header__contacts {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(25% - 20px);
+}
+
+.logo {
+    width: 251px;
+    width: 15.69rem;
+    height: 45px;
+    height: 2.81rem;
+}
+
+.logo__link {
+    text-decoration: none;
+    display: block;
+}
+
+.logo__image {
+    width: 100%;
+}
+
+.official {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    font-size: 0.75rem;
+    color: #ffffff;
+    line-height: 18px;
+    line-height: 1.13rem;
+}
+
+.official-text {
+    display: block;
+    font-size: 18px;
+    font-size: 1.13rem;
+}
+
+.contacts {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.contacts-phone {
+    display: block;
+    text-decoration: none;
+    font-family: 'museosanscyrl', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    font-size: 1.13rem;
+    color: #ffffff;
+    line-height: 25px;
+    line-height: 1.56rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wrapper {
+        max-width: 1140px;
+        max-width: 71.25rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wrapper {
+        padding-left: calc(0% + 10px);
+    }
+
+    .wrapper {
+        padding-right: calc(0% + 10px);
+    }
+
+    .wrapper {
+        max-width: 960px;
+        max-width: 60rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+        max-width: 45rem;
+    }
+
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        max-width: 540px;
+        max-width: 33.75rem;
+    }
+
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .promo {
+        background-image: -webkit-image-set(url('../i/webp/main-bg.webp') 1x, url('../i/webp/main-bg@2x.webp') 2x);
+        background-image: image-set('../i/webp/main-bg.webp' 1x, '../i/webp/main-bg@2x.webp' 2x);
+        background-size: 1920px 650px;
+    }
+}
